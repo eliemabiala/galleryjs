@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  height: 100%;
+  background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(90deg, rgb(195, 195, 195), rgb(228, 228, 228));
+  background-blend-mode: overlay, overlay, overlay, normal;
+}
+
+header {
+  background-color: #4e4a47;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  height: 150px;
+  background-image: url("../../static/img/lens_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#monImage {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+p>button {
+  font-family: arial;
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 4px;
+  font-size: 1.5em;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.buttons-container button {
+  background-color: #4e4a47;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+.buttons-container button:hover {
+  opacity: 0.8;
+}
+
+.thumbnails-container {
+  border-top: 1px solid grey;
+  padding-top: 4px;
+  display: flex;
+  height: 140px;
+  overflow: auto;
+}
+
+.thumbnails-container img {
+  margin-left: 5px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.thumbnails-current {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}

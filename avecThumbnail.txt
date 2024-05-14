@@ -1,0 +1,5 @@
+Générer les vignettes en fonctions des adresse dans le tableau
+Un click sur la thumbnail passe directement à l'image en grand "wide"
+
+
+
